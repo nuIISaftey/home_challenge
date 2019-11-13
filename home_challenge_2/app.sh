@@ -7,7 +7,7 @@ echo -e "\t\t$1\n=================================\n";
 press_any(){
 echo -e "\n\n";
 read -p "::=> Press Enter To Continue:";
-clear
+clear;
 }
 
 clear;
@@ -55,7 +55,6 @@ rm file1.txt
 echo -e "\n::=>file1 was Removed";
 ls *.txt
 
-echo
 press_any
 
 title "\n::=> content of files:"
